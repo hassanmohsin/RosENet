@@ -62,7 +62,7 @@ class classproperty(object):
 
 
 class rosetta:
-    root = Path("/home/hussein/Repositories/Own/rosetta")
+    root = Path("/data2/mhassan/rosetta/rosetta_bin_linux_2020.08.61146_bundle")
 
     @classproperty
     def molfile_to_params(cls):
