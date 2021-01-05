@@ -15,7 +15,7 @@ metal_selector = "chain Z"
 ligand_resname = "WER"
 close_ligand_selector = f"resname {ligand_resname} and (not (element H or element C)) and within 2.5 of t"
 protein_selector = f"not resname {ligand_resname}"
-mgl_python_path = "/home/hussein/Repositories/Own/mgltools_x86_64Linux2_1.5.6/bin/pythonsh"
+mgl_python_path = "/home/mhassan/mgltools/pythonsh"
 preprocess_vina_path = os.path.join(source_path, "preprocessing", "preprocess_vina.py")
 nonstd2stdresidues = {'HOH':'WAT',
                       'CYX':'CYS',
