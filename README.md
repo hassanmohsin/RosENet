@@ -24,6 +24,11 @@ Pyrosetta can be copied next to the RosENet folder or by adding it to the `PYTHO
 
 You must set the path to Rosetta's main folder in the attribute `rosetta.root` in file `RosENet/constants.py` [LINK](RosENet/constants.py#L65)
 
+## Troubleshooting
+ - copy `PyRosetta4.Release.python37.linux.release-274/setup/pyrosetta` next to the `RosENet` directory
+ - install the missing packages using pip
+ - install pdb2pqr: `conda install -c conda-forge htmd-pdb2pqr`
+
 ## How to run
 
 This repository is built as a Python module. To execute it, one should go above the root folder and run the following command:
