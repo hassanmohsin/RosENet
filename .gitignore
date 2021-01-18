@@ -3,3 +3,4 @@ htmd/
 pyrosetta/
 __pycache__/
 dataset/
+.idea/
